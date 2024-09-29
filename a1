@@ -1,1 +1,9 @@
-artifact01.html
+cd /path/to/your/folder
+git init
+mkdir a1
+mv /path/to/artifact01.html a1/
+git add a1/artifact01.html
+git commit -m "Add artifact01.html to the a1 folder"
+git remote add origin https://github.com/your-username/your-repository.git
+git push -u origin master
+
